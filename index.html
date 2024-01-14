@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de [Votre Nom]</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>BIENVENUE SUR MON PORTFOLIO</h1> 
+        <nav>
+            <ul> 
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#competences">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <h1>Mon portfolio</h1>
+    <ul>
+     <li>
+        <figure>
+          <img src="image/imagem de ino.webp" alt="image ">
+          <h2>Description</h2>
+        <p>Le portfolio de gestion de projet est une solution logicielle qui permet aux gestionnaires de projets et aux parties prenantes de suivre l’état d’avancement des projets, de gérer les ressources et de prendre des décisions éclairées basées sur des données en temps réel..</p>
+
+    <section id="competences">
+        <h2> Compétences</h2>
+    <div class="competences-container">
+        <div class="competence">
+            <img src="image/education.webp" alt="HTML">
+            <h3>Education et Formation</h3>
+            <p>Adaptabilité,<br>Flexibilité,<br>Communication <br>Efficace,Esprit Collaboratif,<br>Travail en Équipe,<br>Sens de l’Organisation,<br>Esprit d’Initiative</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+</body>
+</html>
